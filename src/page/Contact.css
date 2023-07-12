@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.float-container {
+    padding: 50px;
+    background-color: rgb(124, 95, 95);
+    height: 710px;
+
+}
+
+.float-child-1 {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    background-color: gray;
+    height: 600px;
+    color: white;
+    
+
+    
+} 
+.float-child-1 h1{
+    color: burlywood;
+    font-weight: bold;
+
+}
+.float-child-2 {
+    width: 50%;
+    float: left;
+    padding-top: 80px;
+    height: 600px;
+    background-color: #40008a;
+}
+.blue{
+    margin-left: 180px;
+    font-size: 30px;
+    color: burlywood;
+    
+}
+.blue h1{
+    font-weight: bold;
+}
+.green{
+    margin-left: 40px;
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.green-1{
+    margin-left: -80px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+.yello{
+    padding: 10px;
+}
+
+.orange{
+    width: 80%;
+    font-size: 30px;
+    float: left;
+    padding-top: 40px; 
+}
+h2{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+h3{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+.c-right{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    position: relative;
+    flex: 1;
+    font-weight: bold;
+
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    font-weight: bold;
+
+    
+}
+
+.c-right .user{
+    width: 26rem;
+    height: 3rem;
+    color: white;
+    padding: 0.3em;
+    outline: none;
+    border: 3px solid rgb(198, 31, 31);
+    border-radius: 10px;
+    font-size: 23px;
+    
+
+}
+
+.c-right .user:hover{
+    box-shadow: 0 0 9px rgb(177, 181, 39);
+    font-weight: bold;
+
+}
+.button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 10px;
+    color: red;
+    background-color: aqua;
+    font-size: 23px;
+
+}
+.button:hover{
+    color: red;
+    background-color: white;
+}
+
+input{
+    background-color: var(--white)
+}
+textarea{
+    height: 5rem!important;
+    background-color: var(--white)
+}
+
+.done{
+    font-size: 19px;
+    color: green;
+    font-weight: bold;
+
+    
+}
+.not-done{
+    font-size: 19px;
+    font-weight: bold;
+    color: red;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+    font-weight: bold;
+
+}

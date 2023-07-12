@@ -1,0 +1,16 @@
+.footer {
+    background-color: #4b2e2e;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
