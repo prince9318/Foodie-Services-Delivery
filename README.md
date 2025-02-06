@@ -8,8 +8,6 @@ MONGODB_URL : ""
 STRIPE_SECRET_KEY : "",
 FRONTEND_URL : "",
 
-MY Backend URL : https://backend-mern-kowt.onrender.com
-
 start : 
 
 ## npm run dev 
